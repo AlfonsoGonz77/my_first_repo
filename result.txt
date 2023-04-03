@@ -1,0 +1,21 @@
+Hey,
+
+
+So you wrote this, which means I have nothing to do with it. Below is some code.
+
+#include <stdio.h>
+#include <stdint.h>
+
+int main(){
+
+	uint8_t number = 0;
+	
+	for(uint8_t i = 0; i <= 10; i++){
+		number += number;
+	}
+	
+	printf("The result is %d.\n", number);
+
+return 0;
+
+}
